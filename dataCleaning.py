@@ -14,5 +14,5 @@ test = df.loc[~df.index.isin(train.index)]
 print(test)
 print(train)
 
-train.to_csv("TrainingSet")
-test.to_csv("TestingSet")
+train.to_csv("TrainingSet.csv")
+test.to_csv("TestingSet.csv")
